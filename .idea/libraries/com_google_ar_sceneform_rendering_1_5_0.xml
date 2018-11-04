@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.google.ar.sceneform:rendering-1.5.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rendering-1.5.0.aar/a0e5bcda3357276af6db04305ee3199e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rendering-1.5.0.aar/a0e5bcda3357276af6db04305ee3199e/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

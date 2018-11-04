@@ -1,0 +1,215 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:15:1-80:12
+INJECTED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:15:1-80:12
+INJECTED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:15:1-80:12
+INJECTED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:15:1-80:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dc8d2f94e6d6861de5c2963b60de9652/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/sceneform-ux-1.5.0.aar/da89730872c4d27eb6630eb72e8f3416/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.ar.sceneform:assets:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/assets-1.5.0.aar/d01676e50f19e44220870ae29d38df6e/AndroidManifest.xml:2:1-7:12
+MERGED from [:openCVLibrary343] /Users/jamesho/StudioProjects/hello-ar-wayfair/openCVLibrary343/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d209269cba31bb1e5ada5ae5c18381d6/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/3b8250bbbce10cb3cf14a09b823c4efc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/48d7c40aa43dbbd9ad7e3a21c1a297ba/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/123d8a0f06b1352208789d448c7df73f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/05e0f7982cbc58930aed53941c123fde/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/5655ba0bfa30be514099058d1f7326c0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/ae4cda3ee5399e65139a45a008cdc840/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.ar.sceneform:core:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/core-1.5.0.aar/77ebdf9534b86fdd48dff3a753f8c3eb/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.ar.sceneform:sceneform-base:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/sceneform-base-1.5.0.aar/80cc25128d87d7a154e559fbeec5650f/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.ar.sceneform:rendering:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/rendering-1.5.0.aar/a0e5bcda3357276af6db04305ee3199e/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.ar.sceneform:filament-android:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/filament-android-1.5.0.aar/8baae5456c7bc155d7d94059333229dd/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9feaae01927434cc24006473bd12aca4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.ar:core:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/core-1.5.0.aar/acea0b24b957e1fa58a89e67910429b4/AndroidManifest.xml:17:1-46:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f7aa0ab29fb84986644aa60ce8b6ce05/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d6983cacb7346d8fce2e7124bf81ddb5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e3c0a7a712e1f6a2805ef50b7a1c17e0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:15:1-80:12
+INJECTED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:15:1-80:12
+INJECTED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:15:1-80:12
+	package
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:17:5-54
+		INJECTED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:15:1-80:12
+		INJECTED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:16:5-51
+	android:versionCode
+		INJECTED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:15:1-80:12
+		INJECTED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:15:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:20:5-65
+	android:name
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:20:22-62
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:22:5-67
+	android:name
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:22:22-64
+uses-feature#android.hardware.camera
+ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:25:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:28:9-57
+uses-feature#android.hardware.camera.front
+ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:30:5-32:36
+	android:required
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:32:9-33
+	android:name
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:31:9-53
+uses-feature#android.hardware.camera.front.autofocus
+ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:34:9-63
+uses-feature#android.hardware.camera.ar
+ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:41:5-43:35
+	android:required
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:43:9-32
+	android:name
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:42:9-50
+application
+ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:45:5-78:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d209269cba31bb1e5ada5ae5c18381d6/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d209269cba31bb1e5ada5ae5c18381d6/AndroidManifest.xml:9:5-20
+MERGED from [com.google.ar.sceneform:sceneform-base:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/sceneform-base-1.5.0.aar/80cc25128d87d7a154e559fbeec5650f/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.ar.sceneform:sceneform-base:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/sceneform-base-1.5.0.aar/80cc25128d87d7a154e559fbeec5650f/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.ar:core:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/core-1.5.0.aar/acea0b24b957e1fa58a89e67910429b4/AndroidManifest.xml:30:5-44:19
+MERGED from [com.google.ar:core:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/core-1.5.0.aar/acea0b24b957e1fa58a89e67910429b4/AndroidManifest.xml:30:5-44:19
+	android:label
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:48:9-41
+	tools:ignore
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:51:9-48
+	android:icon
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:47:9-45
+	android:allowBackup
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:46:9-36
+	android:theme
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:49:9-40
+	android:usesCleartextTraffic
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:50:9-44
+meta-data#com.google.ar.core
+ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:58:9-60:40
+	android:value
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:60:13-37
+	android:name
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:59:13-46
+activity#com.google.ar.sceneform.samples.helloar.HelloSceneformActivity
+ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:62:9-69:20
+	android:screenOrientation
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:67:13-47
+	android:label
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:66:13-45
+	android:exported
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:65:13-36
+	android:configChanges
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:64:13-59
+	android:theme
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:68:13-63
+	android:name
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:63:13-51
+activity#com.google.ar.sceneform.samples.helloar.take_photo
+ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:71:9-77:20
+	android:name
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:72:13-39
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.MAIN
+ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:74:17-69
+	android:name
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:74:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:75:17-77
+	android:name
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:75:27-74
+uses-sdk
+INJECTED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dc8d2f94e6d6861de5c2963b60de9652/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dc8d2f94e6d6861de5c2963b60de9652/AndroidManifest.xml:20:5-44
+MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/sceneform-ux-1.5.0.aar/da89730872c4d27eb6630eb72e8f3416/AndroidManifest.xml:20:5-44
+MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/sceneform-ux-1.5.0.aar/da89730872c4d27eb6630eb72e8f3416/AndroidManifest.xml:20:5-44
+MERGED from [com.google.ar.sceneform:assets:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/assets-1.5.0.aar/d01676e50f19e44220870ae29d38df6e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:assets:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/assets-1.5.0.aar/d01676e50f19e44220870ae29d38df6e/AndroidManifest.xml:5:5-44
+MERGED from [:openCVLibrary343] /Users/jamesho/StudioProjects/hello-ar-wayfair/openCVLibrary343/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:openCVLibrary343] /Users/jamesho/StudioProjects/hello-ar-wayfair/openCVLibrary343/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d209269cba31bb1e5ada5ae5c18381d6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d209269cba31bb1e5ada5ae5c18381d6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/3b8250bbbce10cb3cf14a09b823c4efc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/3b8250bbbce10cb3cf14a09b823c4efc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/48d7c40aa43dbbd9ad7e3a21c1a297ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/48d7c40aa43dbbd9ad7e3a21c1a297ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/123d8a0f06b1352208789d448c7df73f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/123d8a0f06b1352208789d448c7df73f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/05e0f7982cbc58930aed53941c123fde/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/05e0f7982cbc58930aed53941c123fde/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/5655ba0bfa30be514099058d1f7326c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/5655ba0bfa30be514099058d1f7326c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/ae4cda3ee5399e65139a45a008cdc840/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/ae4cda3ee5399e65139a45a008cdc840/AndroidManifest.xml:20:5-44
+MERGED from [com.google.ar.sceneform:core:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/core-1.5.0.aar/77ebdf9534b86fdd48dff3a753f8c3eb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:core:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/core-1.5.0.aar/77ebdf9534b86fdd48dff3a753f8c3eb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:rendering:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/rendering-1.5.0.aar/a0e5bcda3357276af6db04305ee3199e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:rendering:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/rendering-1.5.0.aar/a0e5bcda3357276af6db04305ee3199e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:filament-android:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/filament-android-1.5.0.aar/8baae5456c7bc155d7d94059333229dd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.ar.sceneform:filament-android:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/filament-android-1.5.0.aar/8baae5456c7bc155d7d94059333229dd/AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9feaae01927434cc24006473bd12aca4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9feaae01927434cc24006473bd12aca4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.ar:core:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/core-1.5.0.aar/acea0b24b957e1fa58a89e67910429b4/AndroidManifest.xml:26:5-28:41
+MERGED from [com.google.ar:core:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/core-1.5.0.aar/acea0b24b957e1fa58a89e67910429b4/AndroidManifest.xml:26:5-28:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f7aa0ab29fb84986644aa60ce8b6ce05/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f7aa0ab29fb84986644aa60ce8b6ce05/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d6983cacb7346d8fce2e7124bf81ddb5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d6983cacb7346d8fce2e7124bf81ddb5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e3c0a7a712e1f6a2805ef50b7a1c17e0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e3c0a7a712e1f6a2805ef50b7a1c17e0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:15:1-80:12 reason: com.google.ar.sceneform has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:15:1-80:12 reason: com.google.ar.sceneform has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/jamesho/StudioProjects/hello-ar-wayfair/app/src/main/AndroidManifest.xml:15:1-80:12 reason: com.google.ar.sceneform requested WRITE_EXTERNAL_STORAGE
+activity#com.google.ar.core.InstallActivity
+ADDED from [com.google.ar:core:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/core-1.5.0.aar/acea0b24b957e1fa58a89e67910429b4/AndroidManifest.xml:33:9-39:80
+	android:excludeFromRecents
+		ADDED from [com.google.ar:core:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/core-1.5.0.aar/acea0b24b957e1fa58a89e67910429b4/AndroidManifest.xml:36:13-46
+	android:launchMode
+		ADDED from [com.google.ar:core:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/core-1.5.0.aar/acea0b24b957e1fa58a89e67910429b4/AndroidManifest.xml:38:13-43
+	android:exported
+		ADDED from [com.google.ar:core:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/core-1.5.0.aar/acea0b24b957e1fa58a89e67910429b4/AndroidManifest.xml:37:13-37
+	android:configChanges
+		ADDED from [com.google.ar:core:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/core-1.5.0.aar/acea0b24b957e1fa58a89e67910429b4/AndroidManifest.xml:35:13-74
+	android:theme
+		ADDED from [com.google.ar:core:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/core-1.5.0.aar/acea0b24b957e1fa58a89e67910429b4/AndroidManifest.xml:39:13-77
+	android:name
+		ADDED from [com.google.ar:core:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/core-1.5.0.aar/acea0b24b957e1fa58a89e67910429b4/AndroidManifest.xml:34:13-62
+meta-data#com.google.ar.core.min_apk_version
+ADDED from [com.google.ar:core:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/core-1.5.0.aar/acea0b24b957e1fa58a89e67910429b4/AndroidManifest.xml:41:9-43:41
+	android:value
+		ADDED from [com.google.ar:core:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/core-1.5.0.aar/acea0b24b957e1fa58a89e67910429b4/AndroidManifest.xml:43:13-38
+	android:name
+		ADDED from [com.google.ar:core:1.5.0] /Users/jamesho/.gradle/caches/transforms-1/files-1.1/core-1.5.0.aar/acea0b24b957e1fa58a89e67910429b4/AndroidManifest.xml:42:13-62

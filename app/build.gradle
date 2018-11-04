@@ -58,20 +58,18 @@ android {
 }
 
 dependencies {
-
-    implementation "com.android.support:appcompat-v7:27.1.1"
-
+    implementation 'com.android.support:appcompat-v7:27.1.1'
     // Provides ArFragment, and other Sceneform UX resources:
-    implementation "com.google.ar.sceneform.ux:sceneform-ux:1.5.0"
-
+    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.5.0'
     // For runtime .glTF / .glb asset loading
-    implementation "com.google.ar.sceneform:assets:1.5.0"
-
+    implementation 'com.google.ar.sceneform:assets:1.5.0'
     // Retrofit & OkHttp
     implementation 'com.squareup.retrofit2:retrofit:2.4.0'
-
     // JSON Converter
     implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    implementation project(':openCVLibrary343')
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    compile 'com.squareup.picasso:picasso:2.5.0'
 }
 
 apply plugin: 'com.google.ar.sceneform.plugin'

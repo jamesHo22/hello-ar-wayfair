@@ -40,6 +40,8 @@ import com.google.ar.sceneform.samples.helloar.wayfairapi.response.ProductInfoSc
 import com.google.ar.sceneform.ux.ArFragment;
 import com.google.ar.sceneform.ux.TransformableNode;
 
+import org.opencv.android.OpenCVLoader;
+
 import java.util.List;
 
 import retrofit2.Call;
@@ -96,6 +98,7 @@ public class HelloSceneformActivity extends AppCompatActivity {
     // FutureReturnValueIgnored is not valid
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        OpenCVLoader.initDebug();
 
         if (!checkIsSupportedDeviceOrFinish(this)) {
             return;
