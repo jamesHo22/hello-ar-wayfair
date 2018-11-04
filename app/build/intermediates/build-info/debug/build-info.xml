@@ -5,27 +5,26 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="FIELD_ADDED"
     plugin-version="3.2.0"
-    timestamp="1541292133706"
+    timestamp="1541294336508"
     token="661345872480376540"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="144" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="31" />
+        duration="0" />
     <task
         name="verifier"
-        duration="11" />
+        duration="0" />
 
     <artifact
-        location="/Users/jamesho/StudioProjects/hello-ar-wayfair/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        location="/Users/jamesho/StudioProjects/hello-ar-wayfair/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
         type="SPLIT" />
 
     <build
@@ -87,37 +86,42 @@
     <build
         build-mode="COLD"
         ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1541291726205"
+        timestamp="1541293732407"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Users/jamesho/StudioProjects/hello-ar-wayfair/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-            type="SPLIT" />
-        <artifact
             location="/Users/jamesho/StudioProjects/hello-ar-wayfair/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/jamesho/StudioProjects/hello-ar-wayfair/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/jamesho/StudioProjects/hello-ar-wayfair/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/jamesho/StudioProjects/hello-ar-wayfair/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/Users/jamesho/StudioProjects/hello-ar-wayfair/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
+            location="/Users/jamesho/StudioProjects/hello-ar-wayfair/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/jamesho/StudioProjects/hello-ar-wayfair/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
             location="/Users/jamesho/StudioProjects/hello-ar-wayfair/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/jamesho/StudioProjects/hello-ar-wayfair/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="FIELD_ADDED"
-        timestamp="1541292133706"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1541293938846"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/jamesho/StudioProjects/hello-ar-wayfair/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1541294336508"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/jamesho/StudioProjects/hello-ar-wayfair/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
     </build>
 

@@ -673,6 +673,7 @@ id back
 id barrier
 id beginning
 id blocking
+id blue
 id bottom
 id buttonPanel
 id center
@@ -704,6 +705,7 @@ id front
 id furniture_pic
 id get_photo
 id gone
+id green
 id groups
 id home
 id homeAsUp
@@ -736,6 +738,7 @@ id percent
 id progress_circular
 id progress_horizontal
 id radio
+id red
 id right
 id right_icon
 id right_side
