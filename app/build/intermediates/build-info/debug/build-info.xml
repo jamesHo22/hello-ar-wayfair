@@ -6,13 +6,13 @@
     density="420dpi"
     format="10"
     plugin-version="3.2.0"
-    timestamp="1541298936407"
+    timestamp="1541299129077"
     token="661345872480376540"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="173" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -65,7 +65,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1541298936407"
+        timestamp="1541299129077"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/jamesho/StudioProjects/hello-ar-wayfair/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
