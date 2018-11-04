@@ -18,6 +18,7 @@ package com.google.ar.sceneform.samples.helloar;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Build.VERSION_CODES;
@@ -57,6 +58,9 @@ public class HelloSceneformActivity extends AppCompatActivity {
 
     private static final String EMAIL = "Your-email-here";
     private static final String API_KEY = "Your-api-key-here";
+
+    private int index;
+    private int whichFurniture;
 
 
     private ArFragment arFragment;
@@ -99,6 +103,20 @@ public class HelloSceneformActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         OpenCVLoader.initDebug();
+        Intent intent = getIntent();
+        index = intent.getIntExtra("index", -1);
+
+        switch(index) {
+            case 0:
+                whichFurniture = 2;
+                break;
+            case 1:
+                whichFurniture = 3;
+                break;
+            case 2:
+                whichFurniture =1;
+                break;
+        }
 
         if (!checkIsSupportedDeviceOrFinish(this)) {
             return;
@@ -119,7 +137,7 @@ public class HelloSceneformActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Call<List<ProductInfoSchema>> call, Response<List<ProductInfoSchema>> response) {
                         // Step 2: Get 3D assets and create a renderable
-                        get3DAsset(response.body().get(0).getModel().getGlbUrl());
+                        get3DAsset(response.body().get(whichFurniture).getModel().getGlbUrl());
                     }
 
                     @Override

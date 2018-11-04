@@ -1,0 +1,45 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 25.08.2017 02:10:18
+
+newmtl spec__0f0f0f_25_wood_wf_96_LMDW1045
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5373 0.1961 0.1961
+	Kd 0.5373 0.1961 0.1961
+	Ks 0.0588 0.0588 0.0588
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ./LMDW1045_wood_diffuse_v01_1024.jpg
+	map_Kd ./LMDW1045_wood_diffuse_v01_1024.jpg
+	map_bump ./LMDW1045_wood_bmp_v01_1024_normal_Normal_Bump.jpg
+
+newmtl spec__24170c_25_metal_wf_32_LMDW1045
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.5529 0.1765
+	Kd 0.2000 0.5529 0.1765
+	Ks 0.1412 0.0902 0.0471
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ./LMDW1045_wood_diffuse_v01_1024.jpg
+	map_Kd ./LMDW1045_wood_diffuse_v01_1024.jpg
+
+newmtl shadow_mtl_LMDW1045
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.9000 0.9000 0.9000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ./LMDW1045_shadow_plane_v6.png
+	map_Kd ./LMDW1045_shadow_plane_v6.png

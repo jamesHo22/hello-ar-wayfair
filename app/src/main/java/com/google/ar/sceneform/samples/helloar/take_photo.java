@@ -31,10 +31,14 @@ import org.opencv.imgproc.Imgproc;
 import java.io.ByteArrayOutputStream;
 import java.lang.annotation.Target;
 import java.net.URI;
+import java.security.PublicKey;
 import java.util.ArrayList;
 import java.util.Collections;
 
 public class take_photo extends AppCompatActivity {
+
+    public Double max;
+    public int index;
 
     static final int REQUEST_IMAGE_CAPTURE = 1;
 
@@ -95,99 +99,18 @@ public class take_photo extends AppCompatActivity {
             for(Double b : blues)
                 sumBlues += b/(255*rgbaSize.area());
 
+            ArrayList<Double> finalResult = new ArrayList<>();
+            finalResult.add(sumReds);
+            finalResult.add(sumGreens);
+            finalResult.add(sumBlues);
+
+            max = Collections.max(finalResult);
+            index = finalResult.indexOf(max);
+
             Log.v("Colors!", String.valueOf(sumReds) +" ,"+ String.valueOf(sumGreens) + " ," +String.valueOf(sumBlues));
             red.setText("Red: " + String.valueOf(Math.round(sumReds*100)));
             green.setText("Green: " + String.valueOf(Math.round(sumGreens*100)));
             blue.setText("Blue: " + String.valueOf(Math.round(sumBlues*100)));
-
-
-
-//            Picasso.with(getApplicationContext())
-//                    .load(imageUri)
-//                    .into(new com.squareup.picasso.Target() {
-//
-//                        @Override
-//                        public void onBitmapLoaded(final Bitmap bitmap, Picasso.LoadedFrom from) {
-//                            // Create the required arrays and convert the bitmap (our image)
-//                            // so that it fits the array.
-//                            Mat rgba = new Mat();
-//                            Bitmap resizedBitmap = Bitmap.createScaledBitmap(bitmap, 500, 500, false);
-//                            Utils.bitmapToMat(resizedBitmap, rgba);
-//
-//                            // Get the bitmap size.
-//                            Size rgbaSize = rgba.size();
-//
-//                            Log.v("Array Height", String.valueOf(rgbaSize.height));
-//                            Log.v("Array Width", String.valueOf(rgbaSize.width));
-//                            Log.v("Array Area", String.valueOf(rgbaSize.area()));
-//                            Log.v("Array secondPix", String.valueOf(rgba.get(0,0)[1]));
-//
-//                            ArrayList<Double> reds = new ArrayList<Double>();
-//                            ArrayList<Double> blues = new ArrayList<Double>();
-//                            ArrayList<Double> greens = new ArrayList<Double>();
-//
-//
-//                            for (int i = 0; i < rgbaSize.height; i++) {
-//                                //Log.v("height count", String.valueOf(i) + " BGR values: " + String.valueOf(rgba.get(i, 0)[0]));
-//                                for (int j = 0; j < rgbaSize.width; j++) {
-//                                    reds.add(rgba.get(i, j)[0]);
-//                                    greens.add(rgba.get(i, j)[1]);
-//                                    blues.add(rgba.get(i, j)[2]);
-//                                }
-//                            }
-//
-//                            double sumReds = 0;
-//                            for(Double r : reds)
-//                                sumReds += r/(255*rgbaSize.area());
-//
-//                            double sumGreens = 0;
-//                            for(Double g : greens)
-//                                sumGreens += g/(255*rgbaSize.area());
-//
-//                            double sumBlues = 0;
-//                            for(Double b : blues)
-//                                sumBlues += b/(255*rgbaSize.area());
-//
-//                            Log.v("Colors!", String.valueOf(sumReds) +" ,"+ String.valueOf(sumGreens) + " ," +String.valueOf(sumBlues));
-//
-//                            Picasso.with(getApplicationContext())
-//                                    .load(imageUri)
-//                                    .into(new com.squareup.picasso.Target() {
-//                                        @Override
-//                                        public void onBitmapLoaded(final Bitmap bitmap, Picasso.LoadedFrom from) {
-//                                            /* Save the bitmap or do something with it here */
-//
-//                                            // Set it in the ImageView
-//                                            roomPicture.setImageBitmap(Bitmap.createScaledBitmap(bitmap, 500, 500, false));
-//                                        }
-//
-//                                        @Override
-//                                        public void onBitmapFailed(Drawable errorDrawable) {
-//
-//                                        }
-//
-//                                        @Override
-//                                        public void onPrepareLoad(Drawable placeHolderDrawable) {
-//
-//                                        }
-//                                    });
-//
-//                        }
-//
-//                        @Override
-//                        public void onBitmapFailed(Drawable errorDrawable) {
-//
-//                        }
-//
-//                        @Override
-//                        public void onPrepareLoad(Drawable placeHolderDrawable) {
-//
-//                        }
-//                    });
-
-
-
-
         }
     }
 
@@ -215,6 +138,7 @@ public class take_photo extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), HelloSceneformActivity.class);
+                intent.putExtra("index", index);
                 startActivity(intent);
             }
         });

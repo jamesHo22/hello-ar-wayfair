@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.google.ar.sceneform.samples.helloar.take_photo"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#7b1fa2">
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -44,7 +45,8 @@
             android:id="@+id/red"
             android:layout_margin="2dp"
             android:textSize="18sp"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:textColor="#ffffff"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -53,6 +55,7 @@
             android:layout_margin="2dp"
             android:textSize="18sp"
             android:gravity="center"
+            android:textColor="#ffffff"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -61,7 +64,8 @@
             android:id="@+id/blue"
             android:layout_margin="2dp"
             android:textSize="18sp"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:textColor="#ffffff"/>
     </LinearLayout>
 
 </LinearLayout>
