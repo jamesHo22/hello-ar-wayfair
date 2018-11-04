@@ -130,7 +130,6 @@ public class take_photo extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 dispatchTakePictureIntent();
-                Toast.makeText(getApplicationContext(), "HIIII", Toast.LENGTH_SHORT).show();
                 nextButton.setVisibility(View.VISIBLE);
             }
         });

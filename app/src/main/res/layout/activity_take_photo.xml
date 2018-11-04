@@ -7,13 +7,9 @@
     tools:context="com.google.ar.sceneform.samples.helloar.take_photo"
     android:orientation="vertical"
     android:background="#7b1fa2">
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/get_photo"
-        android:id="@+id/get_photo"
-        android:layout_gravity="center"/>
+
     <ImageView
+        android:layout_marginTop="18dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/room_pic"
@@ -26,13 +22,7 @@
         android:id="@+id/furniture_pic"
         android:layout_margin="4dp"
         android:layout_gravity="center"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Next"
-        android:layout_gravity="center"
-        android:id="@+id/next"
-        android:layout_margin="4dp"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -66,6 +56,30 @@
             android:textSize="18sp"
             android:gravity="center"
             android:textColor="#ffffff"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="400dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/get_photo"
+            android:id="@+id/get_photo"
+            android:layout_gravity="center"
+            android:textColor="#255d00"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_gravity="center"
+            android:id="@+id/next"
+            android:layout_margin="4dp"
+            android:textColor="#255d00"/>
+
     </LinearLayout>
 
 </LinearLayout>
